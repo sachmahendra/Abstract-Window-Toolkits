@@ -59,7 +59,7 @@ class MyFrame extends Frame implements ItemListener,ActionListener{
 
 }
 
-public class A293ListboxAndChoice {
+public class aA293ListboxAndChoice {
     public static void main(String[] args) {
         
         MyFrame f= new MyFrame();
