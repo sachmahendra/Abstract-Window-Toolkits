@@ -24,17 +24,18 @@ class SmartTV extends TV{
 
 public class OverridingSuperSubTV {
     public static void main(String[] args) {
-       /*  TV t = new TV();
+      /*   TV t = new TV();
         t.SwitchOn();
 
        SmartTV s =new SmartTV();
-       s.changeChanal(); */
+       s.changeChanal(); 
+       */ 
 
         // DYNAMIC METHOD DISPATCH USES HERE ESLIYE SUB CLASS IS CALLED HERE NOT SUPER CLASS
 
-       TV t1 = new SmartTV();
-       // t1.browse();  // YNHA PE YE WRONG SHOW HO RHA HAI KYUKI TV CLASS ME BROWSE METHOD HAI HI NHI 
-       t1.changeChanal();
+      TV t1 = new SmartTV();
+  //  t1.browse();  // YNHA PE YE WRONG SHOW HO RHA HAI KYUKI TV CLASS ME BROWSE METHOD HAI HI NHI 
+     t1.changeChanal();
 
     }
 }
